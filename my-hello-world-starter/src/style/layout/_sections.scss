@@ -1,0 +1,12 @@
+@use "../abstracts/mixins";
+
+// Section
+section {
+  padding: 5rem 0rem;
+
+  @include mixins.respond(phone) {
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

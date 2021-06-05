@@ -31,10 +31,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Medical Insurance Costs',
-    info: 'In this project, I investigated medical insurance information. I aimed to analyze various attributes to learn more about the patients and gain insight into potential use cases for the dataset.',
-    url: 'https://github.com/baker-jr-john/US_Medical_Insurance_Costs/blob/c27ad0c0268729d6a85134115cea4c45242b2718/us-medical-insurance-costs.ipynb',
-    repo: 'https://github.com/baker-jr-john/US_Medical_Insurance_Costs', // if no repo, the button will not show up
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -47,26 +57,16 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    title: 'Medical Insurance Costs',
+    info: 'In this project, I investigated medical insurance information. I aimed to analyze various attributes to learn more about the patients and gain insight into potential use cases for the dataset.',
+    url: 'https://github.com/baker-jr-john/US_Medical_Insurance_Costs/blob/c27ad0c0268729d6a85134115cea4c45242b2718/us-medical-insurance-costs.ipynb',
+    repo: 'https://github.com/baker-jr-john/US_Medical_Insurance_Costs', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would you like to work together? Fantastic!',
+  cta: 'Would you like to work together?',
   btn: 'Email Me',
   email: 'hello@johnbaker.io',
 };
